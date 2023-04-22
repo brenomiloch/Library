@@ -29,7 +29,74 @@ print("A media foi de: " + str(Media))
 
 A segunda opção é utilizar a vírgula (",") em vez de concatenar com o operador de adição. Nesse caso, a variável "Media" não precisa ser convertida em string, pois a vírgula adicionará automaticamente um espaço entre a mensagem e a variável:
 
-~~~Python
+~~~python
 #USANDO OPERADOR ' , '
 print("A media foi de: " , (Media))
-~~~~
+~~~
+
+&nbsp; 
+&nbsp; 
+&nbsp; 
+
+# CONTROLE DE FLUXO
+
+## if - else
+
+A estrutura __*if*__ é usada para executar um bloco de código apenas se uma determinada condição for verdadeira. 
+
+&nbsp;
+
+__*🐍EXEMPLO🐍*:__
+~~~python
+if :
+    # Codigo a ser executado se a condicao for verdadeira
+~~~
+
+O __*if*__ é seguida pela __condição__ que será avaliada. Se essa condição for verdadeira, o código abaixo do if será executado. Se a condição for falsa, o código abaixo do __*if*__ não será executado e será entrado na condição do __*else*__.
+
+
+__*🐍EXEMPLO IF🐍*:__
+~~~python
+numero = 3
+
+if numero > 0:
+    print("O numero e positivo!")
+~~~
+
+__*🐍EXEMPLO if::else🐍*:__
+
+A estrutura __*else*__ é usada em conjunto com o __*if*__.
+ A sintaxe básica do __if - else__ é a seguinte:
+
+~~~python
+if condicao:
+    # Codigo a ser executado se a condicao for verdadeira
+else:
+    # Codigo a ser executado se a condicao for falsa
+
+~~~
+Se a condição for verdadeira, o código dentro do __*if*__ será executado. Caso contrário, o código dentro do __*else*__ será executado.
+
+
+__*❌CASO IMPAR❌*:__
+
+~~~python
+numero = 7
+if numero % 2 == 0:
+    print("O numero e par!")
+else:
+    print("O numero e impar!")
+~~~
+
+Nesse caso, a condição é numero % 2 == 0, que é __*falsa*__, pois o valor da variável numero é 7 (que é ímpar). Portanto, o código dentro do else será executado, e a mensagem "O numero e impar!" será exibida na tela.
+
+__✅*CASO PAR*✅:__
+
+~~~python
+numero = 6
+if numero % 2 == 0:
+    print("O numero e par!")
+else:
+    print("O numero e impar!")
+~~~
+Nesse caso, a condição será verdadeira, pois o valor da variável numero é 6 (que é par). Portanto, o código dentro do __*if*__ será executado.
