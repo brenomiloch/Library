@@ -21,12 +21,14 @@ print("A media foi de: " + (Media))
 
 __*✅EXEMPLO CERTO:✅*__
 
-**Descrição:** Para resolver esse problema, temos duas opções, primeira converter a variavel Media em string e depois concatela a string ou a segunda é utilizar a vírgula __* , *__ em vez de concatená-la com o operador __* + *__
-
+**Descrição:** Para resolver este problema, há duas opções. A primeira é converter a variável "Media" em uma string e, em seguida, concatená-la com a outra parte da mensagem. Isso pode ser feito usando o operador de adição (+) entre a string e a variável convertida em string:
 ~~~python
 #CONVERTENDO EM STRING
 print("A media foi de: " + str(Media))
 ~~~
+
+A segunda opção é utilizar a vírgula (",") em vez de concatenar com o operador de adição. Nesse caso, a variável "Media" não precisa ser convertida em string, pois a vírgula adicionará automaticamente um espaço entre a mensagem e a variável:
+
 ~~~Python
 #USANDO OPERADOR ' , '
 print("A media foi de: " , (Media))
