@@ -34,6 +34,26 @@ A segunda opção é utilizar a vírgula (",") em vez de concatenar com o operad
 print("A media foi de: " , (Media))
 ~~~
 
+&nbsp;
+
+## %
+O operador __*%*__ é chamado de operador de módulo ou resto, e ele retorna o resto da divisão entre dois números.
+
+Por exemplo, se tivermos a __*%*__ b, o operador % retorna o resto da divisão de a por b.
+
+O operador __*%*__ pode ser útil em diversas situações, como:
+
+ - Verificar se um número é par ou ímpar: se um número n é divisível por 2 sem deixar resto, ou seja, se n % 2 == 0, então ele é par. Caso contrário, n é ímpar.
+
+ - Obter a última casa decimal de um número: se tivermos um número decimal n, podemos obter a última casa decimal utilizando __n % 1__. Por exemplo, se __n = 3.14159__, então __n % 1__ retorna __*0.14159*__.
+
+ - Calcular o dia da semana: o operador __%__ é utilizado no cálculo do dia da semana em alguns algoritmos. Por exemplo, para calcular o dia da semana de uma data, podemos utilizar a __fórmula dia_da_semana = (dia + (13*(mes+1))//5 + ano + ano//4 - ano//100 + ano//400) % 7__, onde dia, mes e ano são os componentes da data.
+
+ - Repetir um padrão de sequência: o operador __%__ pode ser utilizado para repetir um padrão de sequência em um loop. Por exemplo, se quisermos imprimir os números de 0 a 9 em sequência infinitamente, podemos utilizar o seguinte loop: __*while True: for i in range(10): print(i, end=" ")*__, onde end=" " faz com que a função print imprima os valores separados por um espaço em vez de uma nova linha.
+
+Essas são apenas algumas das aplicações do operador __%__. Em geral, ele é muito útil em situações que envolvem divisão e restos, e pode ser utilizado de diversas formas para resolver problemas e realizar cálculos.
+
+
 &nbsp; 
 &nbsp; 
 &nbsp; 

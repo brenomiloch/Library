@@ -4,11 +4,11 @@
 
 
 ### Operadores Aritméticos:
-  -  Adição: +
-  -  Subtração: -
-  -  Multiplicação: *
-  -  Divisão: /
-  -  Divisão inteira: //
+  - ✅ Adição: +
+  - ✅ Subtração: -
+  - ✅ Multiplicação: *
+  - ✅ Divisão: /
+  - ✅ Divisão inteira: //
   -  Resto da divisão: %
   -  Exponenciação: **
 
