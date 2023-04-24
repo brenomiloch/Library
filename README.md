@@ -120,3 +120,8 @@ else:
     print("O numero e impar!")
 ~~~
 Nesse caso, a condição será verdadeira, pois o valor da variável numero é 6 (que é par). Portanto, o código dentro do __*if*__ será executado.
+
+
+# KIVY
+
+pip install kivy[base] kivy_examples --pre --extra-index-url https://kivy.org/downloads/simple/
